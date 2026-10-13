@@ -1,0 +1,40 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+application-local.properties
+*.key
+*.pem
+*.p12
+
+# Build output and generated artifacts
+target/
+out/
+build/
+dist/
+coverage/
+
+# Frontend dependencies
+node_modules/
+
+# Local databases and logs
+*.db
+*.mv.db
+*.trace.db
+*.lock.db
+*.log
+logs/
+data/
+
+# IDE and operating-system files
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+.DS_Store
+Thumbs.db
+
+# Maven wrapper cache
+.mvn/wrapper/maven-wrapper.jar
