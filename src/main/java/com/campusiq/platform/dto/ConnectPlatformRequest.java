@@ -1,0 +1,1 @@
+package com.campusiq.platform.dto; import com.campusiq.platform.entity.Platform; import jakarta.validation.constraints.*; public record ConnectPlatformRequest(@NotNull Platform platform,@NotBlank @Size(max=120) String username){}

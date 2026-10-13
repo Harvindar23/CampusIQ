@@ -1,0 +1,1 @@
+package com.campusiq.platform.client; public class PlatformClientException extends RuntimeException {public PlatformClientException(String m,Throwable c){super(m,c);} public PlatformClientException(String m){super(m);}}

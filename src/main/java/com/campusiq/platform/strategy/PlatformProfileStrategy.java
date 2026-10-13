@@ -1,0 +1,1 @@
+package com.campusiq.platform.strategy; import com.campusiq.platform.dto.PlatformProfileResponse; import com.campusiq.platform.entity.Platform; public interface PlatformProfileStrategy { Platform getPlatform(); boolean verifyUser(String username); PlatformProfileResponse fetchProfile(String username); }

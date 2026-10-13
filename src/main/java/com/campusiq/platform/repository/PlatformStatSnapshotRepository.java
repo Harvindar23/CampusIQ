@@ -1,0 +1,1 @@
+package com.campusiq.platform.repository; import com.campusiq.platform.entity.*; import org.springframework.data.jpa.repository.JpaRepository; import java.util.Optional; public interface PlatformStatSnapshotRepository extends JpaRepository<PlatformStatSnapshot,Long>{Optional<PlatformStatSnapshot> findByAccountId(Long id);}

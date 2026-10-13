@@ -1,0 +1,1 @@
+package com.campusiq.user.dto; import com.campusiq.user.entity.User; public record UserResponse(Long id,String name,String email,String college,String branch,Integer graduationYear){ public static UserResponse from(User u){return new UserResponse(u.getId(),u.getName(),u.getEmail(),u.getCollege(),u.getBranch(),u.getGraduationYear());} }
